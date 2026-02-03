@@ -1,3 +1,5 @@
+# Monitoring a microservices App with a third party app (Redis)
+
 ### Deploy MS in EKS
     eksctl create cluster
     kubectl create namespace online-shop
