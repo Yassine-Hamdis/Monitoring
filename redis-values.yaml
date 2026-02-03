@@ -1,0 +1,12 @@
+serviceMonitor:
+  enabled: true
+  labels:
+    release: monitoring
+
+redisAddress: redis://redis-cart:6379
+
+# add repo
+# helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+# helm repo update
+# installing the chart
+# helm install redis-exporter prometheus-community/prometheus-redis-exporter -f redis-values.yaml
